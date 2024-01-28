@@ -20,10 +20,12 @@ public class DoublyLinkedList{
    public void linearSearch(int target) {
           /*add your code here*/
    }
-   
+}
+```
+```java
+public class Main{
    public static void main(String[] args) {
-       DoublyLinkedList doublyList = new DoublyLinkedList();
-       DoublyLinkedList.linearSearch(9)
+        /*add your code here*/
    }
 }
 
