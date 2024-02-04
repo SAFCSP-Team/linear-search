@@ -7,7 +7,7 @@ In this project, our main goal is to understand the linear search algorithm.
 ### Problem
 Create a doubly linked list corresponding to the following diagram and linear search function to search for the value of 9.
                                                            
-<img width="1000" height="150" alt="linked list" src="https://github.com/SAFCSP-Team/linear-search/blob/main/Image/search-project.jpg">
+<img width="990" height="250" alt="linked list" src="https://github.com/SAFCSP-Team/linear-search/blob/main/Image/search-project.jpg">
 
 ### Implementation
 * Create a doubly linked list where the data is an integer.
@@ -16,7 +16,6 @@ Create a doubly linked list corresponding to the following diagram and linear se
                                            
 ```java
 public class DoublyLinkedList{
-   Node head;
    public void linearSearch(int target) {
           /*add your code here*/
    }
