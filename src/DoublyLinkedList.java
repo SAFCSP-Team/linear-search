@@ -54,12 +54,15 @@ public DoublyLinkedList(){
     public int[] linearSearch(int target) {
         int[] sampel = {-1, 0};
           Node current = head;
-          for(int x = 0;current.next != null; x++){
+          int x = 0;
+          while(current != null){
             if(current.data == target){
                 sampel[0] = x;
                 sampel[1] = x+1; 
             }
             sampel[1] = x+1;
+            x =+1;
+            current = current.next;
 
           }return sampel;
 
